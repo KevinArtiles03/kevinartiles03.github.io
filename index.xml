@@ -14,7 +14,7 @@
 <item>
   <title>From Camp Nou to the Committee: Did Money Tilt the Calls</title>
   <dc:creator>Kevin Artiles Fernandez</dc:creator>
-  <link>https://your-website-url.example.com/posts/Barcelona-benefitted-LaLiga-Negreira-CTA-referees/</link>
+  <link>https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/</link>
   <description><![CDATA[ 
 
 
@@ -449,7 +449,7 @@ font-style: inherit;">plot_grid</span>(Bar1For, Bar2VS)</span></code></pre></div
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/Barcelona-benefitted-LaLiga-Negreira-CTA-referees/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1196,7 +1196,7 @@ font-style: inherit;">7.5</span>)</span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/Barcelona-benefitted-LaLiga-Negreira-CTA-referees/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1795,12 +1795,12 @@ background-color: null;
 font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">5.5</span>)</span>
-<span id="cb3-50">  )</span></code></pre></div></div>
+<span id="cb3-50">  ) </span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/Barcelona-benefitted-LaLiga-Negreira-CTA-referees/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1808,7 +1808,6 @@ font-style: inherit;">5.5</span>)</span>
 <p>The ‘Blaugranas’ saw a lot of benefits on the pitch during this time with barely any red cards given to the Catalan club’s players, but several given to their opponents.</p>
 <p>Like penalties, a red card has a massive impact on the match. This said, some of their rivals faced somewhat similar benefits, such as Real Madrid.</p>
 <p>But how did the refereeing decisions impact the actual matches? Were they enough to swing the results in favor of the ‘Blaugranas’ or does it stay average compared to the rest of the league?</p>
-<p>Chart 3</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -2121,7 +2120,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/Barcelona-benefitted-LaLiga-Negreira-CTA-referees/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -2140,9 +2139,21 @@ font-style: inherit;">"black"</span>)</span></code></pre></div></div>
   <category>referees</category>
   <category>spain</category>
   <category>negreira</category>
-  <guid>https://your-website-url.example.com/posts/Barcelona-benefitted-LaLiga-Negreira-CTA-referees/</guid>
+  <guid>https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/</guid>
   <pubDate>Tue, 04 Nov 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/Barcelona-benefitted-LaLiga-Negreira-CTA-referees/image.png" medium="image" type="image/png"/>
+  <media:content url="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/image.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>About</title>
+  <link>https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html</link>
+  <description><![CDATA[ 
+<p>About this blog</p>
+
+
+ ]]></description>
+  <guid>https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html</guid>
+  <pubDate>Mon, 17 Nov 2025 06:33:58 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/profile.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
