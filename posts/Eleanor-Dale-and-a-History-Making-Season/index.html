@@ -196,6 +196,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<p>The Hibner Stadium crowd erupted on Nov.&nbsp;19, 2023, as Eleanor Dale curled a freekick into the back of the net and setting a new Nebraska season scoring record with 28 goals, previously owned by Kim Egnesser since her 25 goal 1998 season. The English forward became the only player since Egnesser herself to break the 25 goal mark, with the closest before her being Morgan Malborough in 2011 with 20 goals.</p>
+<p>But local records can only go so far, lets take a look at the bigger picture, how far off was Dale from breaking the Big Ten conference goalscoring record?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -243,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  )</span>
 <span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="co"># Scatterplot</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(historical, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Goals)) <span class="sc">+</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(historical, <span class="fu">aes</span>(<span class="at">x =</span> GamesPlayed, <span class="at">y =</span> Goals)) <span class="sc">+</span></span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  <span class="co"># All non-highlighted players in gray</span></span>
 <span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(</span>
@@ -273,7 +275,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">3.5</span></span>
 <span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Season"</span>,</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Games Played"</span>,</span>
 <span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Goals Scored"</span>,</span>
 <span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Dale breaks into Big Ten Top Three Goalscoring seasons"</span>,</span>
 <span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"The former Husker was only 4 goals short off breaking Tiffany Weimer's Big Ten goalscoring record."</span>,</span>
@@ -298,7 +300,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="st">"image.png"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<p>A penalty at any point in the match changes the entire momentum of the game. Compared to the rest of the league including their main rivals, Real Madrid and Atletico Madrid, receiving the most penalties called in their favor, and the least against, certainly set a tempo for the season.</p>
+<p>With less games played, Dale was only 4 goals away from breaking the Big Ten goalscoring record. Breaking into the Top 3 is already a marvelous season. The Huskers would go on to win the league title that season, sharing it alongside Michigan State. Despite falling short in the Big Ten tournament, Nebraska reached the 2023 NCAA Elite Eight, netting their best finish in the national tournament.</p>
+<p>But Dale wasn’t the only scorer for Nebraska. With big names like Sarah Weber, Florence Belzille, and Sadie Waite pushing the Husker offense, Nebraska was on the front foot in the league. The question now becomes: How many goals did Nebraska score compared to the league across the three seasons, two with Dale and the following after the English forward’s graduation?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -334,8 +337,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">group =</span> Institution,</span>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  <span class="at">color =</span> LegendGroup</span>
 <span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>)) <span class="sc">+</span></span>
-<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
-<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
 <span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> color_map) <span class="sc">+</span></span>
 <span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(</span>
 <span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Season"</span>,</span>
@@ -359,9 +362,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>The ‘Blaugranas’ saw a lot of benefits on the pitch during this time with barely any red cards given to the Catalan club’s players, but several given to their opponents.</p>
-<p>Like penalties, a red card has a massive impact on the match. This said, some of their rivals faced somewhat similar benefits, such as Real Madrid.</p>
-<p>But how did the refereeing decisions impact the actual matches? Were they enough to swing the results in favor of the ‘Blaugranas’ or does it stay average compared to the rest of the league?</p>
+<p>Nebraska saw a major spike in offensive performance, especially influenced by the now Southampton forward who scored 42% Nebraska’s goals. The Huskers majorly outclass the Big Ten, scoring well above the league average and even more than their co-league Champions, being the only team to break 60 goals that season in the Big Ten. Dale’s performance in the striker position was simply marvelous, but a striker needs to have a variety of skill sets to score in different situations. Did Dale make use of different goalscoring skill sets or was she only scoring off a singular type of finishing ability?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -431,23 +432,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="wyqpzyczim" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#wyqpzyczim table {
+<div id="gqstwrolms" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gqstwrolms table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#wyqpzyczim thead, #wyqpzyczim tbody, #wyqpzyczim tfoot, #wyqpzyczim tr, #wyqpzyczim td, #wyqpzyczim th {
+#gqstwrolms thead, #gqstwrolms tbody, #gqstwrolms tfoot, #gqstwrolms tr, #gqstwrolms td, #gqstwrolms th {
   border-style: none;
 }
 
-#wyqpzyczim p {
+#gqstwrolms p {
   margin: 0;
   padding: 0;
 }
 
-#wyqpzyczim .gt_table {
+#gqstwrolms .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -473,12 +474,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-left-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_caption {
+#gqstwrolms .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#wyqpzyczim .gt_title {
+#gqstwrolms .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -490,7 +491,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-width: 0;
 }
 
-#wyqpzyczim .gt_subtitle {
+#gqstwrolms .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -502,7 +503,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-width: 0;
 }
 
-#wyqpzyczim .gt_heading {
+#gqstwrolms .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -514,13 +515,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_bottom_border {
+#gqstwrolms .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_col_headings {
+#gqstwrolms .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -535,7 +536,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_col_heading {
+#gqstwrolms .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -555,7 +556,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#wyqpzyczim .gt_column_spanner_outer {
+#gqstwrolms .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -567,15 +568,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 4px;
 }
 
-#wyqpzyczim .gt_column_spanner_outer:first-child {
+#gqstwrolms .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wyqpzyczim .gt_column_spanner_outer:last-child {
+#gqstwrolms .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wyqpzyczim .gt_column_spanner {
+#gqstwrolms .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -587,11 +588,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   width: 100%;
 }
 
-#wyqpzyczim .gt_spanner_row {
+#gqstwrolms .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#wyqpzyczim .gt_group_heading {
+#gqstwrolms .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -617,7 +618,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   text-align: left;
 }
 
-#wyqpzyczim .gt_empty_group_heading {
+#gqstwrolms .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -632,15 +633,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: middle;
 }
 
-#wyqpzyczim .gt_from_md > :first-child {
+#gqstwrolms .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wyqpzyczim .gt_from_md > :last-child {
+#gqstwrolms .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wyqpzyczim .gt_row {
+#gqstwrolms .gt_row {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 5px;
@@ -659,7 +660,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#wyqpzyczim .gt_stub {
+#gqstwrolms .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -672,7 +673,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyqpzyczim .gt_stub_row_group {
+#gqstwrolms .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -686,15 +687,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: top;
 }
 
-#wyqpzyczim .gt_row_group_first td {
+#gqstwrolms .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#wyqpzyczim .gt_row_group_first th {
+#gqstwrolms .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#wyqpzyczim .gt_summary_row {
+#gqstwrolms .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -704,16 +705,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyqpzyczim .gt_first_summary_row {
+#gqstwrolms .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_first_summary_row.thick {
+#gqstwrolms .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#wyqpzyczim .gt_last_summary_row {
+#gqstwrolms .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -723,7 +724,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_grand_summary_row {
+#gqstwrolms .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -733,7 +734,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyqpzyczim .gt_first_grand_summary_row {
+#gqstwrolms .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -743,7 +744,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_last_grand_summary_row_top {
+#gqstwrolms .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -753,11 +754,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_striped {
+#gqstwrolms .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wyqpzyczim .gt_table_body {
+#gqstwrolms .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -766,7 +767,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_footnotes {
+#gqstwrolms .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -780,7 +781,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_footnote {
+#gqstwrolms .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -789,7 +790,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyqpzyczim .gt_sourcenotes {
+#gqstwrolms .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -803,7 +804,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyqpzyczim .gt_sourcenote {
+#gqstwrolms .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -811,72 +812,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyqpzyczim .gt_left {
+#gqstwrolms .gt_left {
   text-align: left;
 }
 
-#wyqpzyczim .gt_center {
+#gqstwrolms .gt_center {
   text-align: center;
 }
 
-#wyqpzyczim .gt_right {
+#gqstwrolms .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wyqpzyczim .gt_font_normal {
+#gqstwrolms .gt_font_normal {
   font-weight: normal;
 }
 
-#wyqpzyczim .gt_font_bold {
+#gqstwrolms .gt_font_bold {
   font-weight: bold;
 }
 
-#wyqpzyczim .gt_font_italic {
+#gqstwrolms .gt_font_italic {
   font-style: italic;
 }
 
-#wyqpzyczim .gt_super {
+#gqstwrolms .gt_super {
   font-size: 65%;
 }
 
-#wyqpzyczim .gt_footnote_marks {
+#gqstwrolms .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#wyqpzyczim .gt_asterisk {
+#gqstwrolms .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#wyqpzyczim .gt_indent_1 {
+#gqstwrolms .gt_indent_1 {
   text-indent: 5px;
 }
 
-#wyqpzyczim .gt_indent_2 {
+#gqstwrolms .gt_indent_2 {
   text-indent: 10px;
 }
 
-#wyqpzyczim .gt_indent_3 {
+#gqstwrolms .gt_indent_3 {
   text-indent: 15px;
 }
 
-#wyqpzyczim .gt_indent_4 {
+#gqstwrolms .gt_indent_4 {
   text-indent: 20px;
 }
 
-#wyqpzyczim .gt_indent_5 {
+#gqstwrolms .gt_indent_5 {
   text-indent: 25px;
 }
 
-#wyqpzyczim .katex-display {
+#gqstwrolms .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#wyqpzyczim div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#gqstwrolms div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1076,6 +1077,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>The Billingham native employed multiple goal types, including some of the rarest forms of goals in football. But what is even more impressive is the amount of consecutive games in which Dale scored one or more goals. She scored in seven consecutive matches, five of which were consecutive two-goal preformances, a feat which she fell just short of accomplishing again, chaining four two goal performances later in the season. She did not score a hattrick in that season which is surprising considering how many games she came short of taking the ball home. In this season, Dale also broke Nebraska’s record for most shots and shots on target for a Husker player in a single season, demonstrating the strength of the Husker attack, and elevating the English forward to a new level.</p>
+<p>Dale signed with Everton following the end of the season and eventually transferred to Southampton, club which she currently represents as she recovers from injury with hopes of fighting for a spot in the squad that will represent England in the upcoming 2027 FIFA Women’s World Cup in Brazil.</p>
 
 
 
