@@ -432,7 +432,68 @@ background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>)</span>
-<span id="cb1-85">  ) </span></code></pre></div></div>
+<span id="cb1-85">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-86">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"rect"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xmin =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">23</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xmax =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">Inf</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymin =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">27.5</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymax =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">Inf</span>,</span>
+<span id="cb1-87">           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"blue"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alpha =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb1-88">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"text"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">25</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">30</span>,</span>
+<span id="cb1-89">           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">label =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Record breaking goalscoring season(s)"</span>,</span>
+<span id="cb1-90">           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -1009,23 +1070,23 @@ font-style: inherit;">"left"</span></span>
 <span id="cb4-64">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
-<div id="gqstwrolms" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#gqstwrolms table {
+<div id="gyndkccdth" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gyndkccdth table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#gqstwrolms thead, #gqstwrolms tbody, #gqstwrolms tfoot, #gqstwrolms tr, #gqstwrolms td, #gqstwrolms th {
+#gyndkccdth thead, #gyndkccdth tbody, #gyndkccdth tfoot, #gyndkccdth tr, #gyndkccdth td, #gyndkccdth th {
   border-style: none;
 }
 
-#gqstwrolms p {
+#gyndkccdth p {
   margin: 0;
   padding: 0;
 }
 
-#gqstwrolms .gt_table {
+#gyndkccdth .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1051,12 +1112,12 @@ font-style: inherit;">"left"</span></span>
   border-left-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_caption {
+#gyndkccdth .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#gqstwrolms .gt_title {
+#gyndkccdth .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1068,7 +1129,7 @@ font-style: inherit;">"left"</span></span>
   border-bottom-width: 0;
 }
 
-#gqstwrolms .gt_subtitle {
+#gyndkccdth .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1080,7 +1141,7 @@ font-style: inherit;">"left"</span></span>
   border-top-width: 0;
 }
 
-#gqstwrolms .gt_heading {
+#gyndkccdth .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -1092,13 +1153,13 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_bottom_border {
+#gyndkccdth .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_col_headings {
+#gyndkccdth .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1113,7 +1174,7 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_col_heading {
+#gyndkccdth .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1133,7 +1194,7 @@ font-style: inherit;">"left"</span></span>
   overflow-x: hidden;
 }
 
-#gqstwrolms .gt_column_spanner_outer {
+#gyndkccdth .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1145,15 +1206,15 @@ font-style: inherit;">"left"</span></span>
   padding-right: 4px;
 }
 
-#gqstwrolms .gt_column_spanner_outer:first-child {
+#gyndkccdth .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#gqstwrolms .gt_column_spanner_outer:last-child {
+#gyndkccdth .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#gqstwrolms .gt_column_spanner {
+#gyndkccdth .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1165,11 +1226,11 @@ font-style: inherit;">"left"</span></span>
   width: 100%;
 }
 
-#gqstwrolms .gt_spanner_row {
+#gyndkccdth .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#gqstwrolms .gt_group_heading {
+#gyndkccdth .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1195,7 +1256,7 @@ font-style: inherit;">"left"</span></span>
   text-align: left;
 }
 
-#gqstwrolms .gt_empty_group_heading {
+#gyndkccdth .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1210,15 +1271,15 @@ font-style: inherit;">"left"</span></span>
   vertical-align: middle;
 }
 
-#gqstwrolms .gt_from_md > :first-child {
+#gyndkccdth .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#gqstwrolms .gt_from_md > :last-child {
+#gyndkccdth .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#gqstwrolms .gt_row {
+#gyndkccdth .gt_row {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 5px;
@@ -1237,7 +1298,7 @@ font-style: inherit;">"left"</span></span>
   overflow-x: hidden;
 }
 
-#gqstwrolms .gt_stub {
+#gyndkccdth .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1250,7 +1311,7 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#gqstwrolms .gt_stub_row_group {
+#gyndkccdth .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1264,15 +1325,15 @@ font-style: inherit;">"left"</span></span>
   vertical-align: top;
 }
 
-#gqstwrolms .gt_row_group_first td {
+#gyndkccdth .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#gqstwrolms .gt_row_group_first th {
+#gyndkccdth .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#gqstwrolms .gt_summary_row {
+#gyndkccdth .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1282,16 +1343,16 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#gqstwrolms .gt_first_summary_row {
+#gyndkccdth .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_first_summary_row.thick {
+#gyndkccdth .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#gqstwrolms .gt_last_summary_row {
+#gyndkccdth .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1301,7 +1362,7 @@ font-style: inherit;">"left"</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_grand_summary_row {
+#gyndkccdth .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1311,7 +1372,7 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#gqstwrolms .gt_first_grand_summary_row {
+#gyndkccdth .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1321,7 +1382,7 @@ font-style: inherit;">"left"</span></span>
   border-top-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_last_grand_summary_row_top {
+#gyndkccdth .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1331,11 +1392,11 @@ font-style: inherit;">"left"</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_striped {
+#gyndkccdth .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#gqstwrolms .gt_table_body {
+#gyndkccdth .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1344,7 +1405,7 @@ font-style: inherit;">"left"</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_footnotes {
+#gyndkccdth .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1358,7 +1419,7 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_footnote {
+#gyndkccdth .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1367,7 +1428,7 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#gqstwrolms .gt_sourcenotes {
+#gyndkccdth .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1381,7 +1442,7 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#gqstwrolms .gt_sourcenote {
+#gyndkccdth .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1389,72 +1450,72 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#gqstwrolms .gt_left {
+#gyndkccdth .gt_left {
   text-align: left;
 }
 
-#gqstwrolms .gt_center {
+#gyndkccdth .gt_center {
   text-align: center;
 }
 
-#gqstwrolms .gt_right {
+#gyndkccdth .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#gqstwrolms .gt_font_normal {
+#gyndkccdth .gt_font_normal {
   font-weight: normal;
 }
 
-#gqstwrolms .gt_font_bold {
+#gyndkccdth .gt_font_bold {
   font-weight: bold;
 }
 
-#gqstwrolms .gt_font_italic {
+#gyndkccdth .gt_font_italic {
   font-style: italic;
 }
 
-#gqstwrolms .gt_super {
+#gyndkccdth .gt_super {
   font-size: 65%;
 }
 
-#gqstwrolms .gt_footnote_marks {
+#gyndkccdth .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#gqstwrolms .gt_asterisk {
+#gyndkccdth .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#gqstwrolms .gt_indent_1 {
+#gyndkccdth .gt_indent_1 {
   text-indent: 5px;
 }
 
-#gqstwrolms .gt_indent_2 {
+#gyndkccdth .gt_indent_2 {
   text-indent: 10px;
 }
 
-#gqstwrolms .gt_indent_3 {
+#gyndkccdth .gt_indent_3 {
   text-indent: 15px;
 }
 
-#gqstwrolms .gt_indent_4 {
+#gyndkccdth .gt_indent_4 {
   text-indent: 20px;
 }
 
-#gqstwrolms .gt_indent_5 {
+#gyndkccdth .gt_indent_5 {
   text-indent: 25px;
 }
 
-#gqstwrolms .katex-display {
+#gyndkccdth .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#gqstwrolms div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#gyndkccdth div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -3809,7 +3870,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div></div>
 
  ]]></description>
   <guid>https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html</guid>
-  <pubDate>Tue, 09 Dec 2025 22:24:50 GMT</pubDate>
+  <pubDate>Tue, 09 Dec 2025 23:35:02 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/profile.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -3821,7 +3882,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div></div>
 
  ]]></description>
   <guid>https://your-website-url.example.com/posts/Eleanor-Dale-and-a-History-Making-Season/about.html</guid>
-  <pubDate>Tue, 09 Dec 2025 22:24:50 GMT</pubDate>
+  <pubDate>Tue, 09 Dec 2025 23:35:02 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/Eleanor-Dale-and-a-History-Making-Season/profile.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
