@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>sportsBlog – Kevin Artiles’ Blog</title>
+<title>About – Kevin Artiles’ Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ec1ecde4794cf0ca2676fdbadd3167b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2ec1ecde4794cf0ca2676fdbadd3167b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +67,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Kevin Artiles' Blog" href="index.xml" data-external="1"></head>
-
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Kevin Artiles’ Blog</span>
     </a>
   </div>
@@ -153,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -176,167 +115,44 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">sportsBlog</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">About</h1>
                       </div>
   </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
+  <div class="quarto-title-meta">
     </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YmFyY2Vsb25h">barcelona <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmlnMTA=">big10 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29ycnVwdGlvbg==">corruption <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGFsaWdh">laliga <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmNhYQ==">ncaa <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmVicmFza2E=">nebraska <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmVncmVpcmE=">negreira <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVmZXJlZXM=">referees <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29jY2Vy">soccer <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3BhaW4=">spain <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<div class="quarto-about-jolla">
+  <img src="profile.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <main class="content quarto-banner-title-block" id="quarto-document-content">
+<p>About this blog</p>
 
 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1762308422335" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<div class="thumbnail"><a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html" class="no-external">
-
-<img loading="lazy" src="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/profile.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html" class="no-external">About</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html" class="no-external">
-About this blog
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html" class="no-external">
-</a>
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://twitter.com" class="about-link" rel="" target="">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">Twitter</span>
+  </a>
+  <a href="https://linkedin.com" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1762308422335" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<div class="thumbnail"><a href="./posts/Eleanor-Dale-and-a-History-Making-Season/about.html" class="no-external">
-
-<img loading="lazy" src="./posts/Eleanor-Dale-and-a-History-Making-Season/profile.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Eleanor-Dale-and-a-History-Making-Season/about.html" class="no-external">About</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/Eleanor-Dale-and-a-History-Making-Season/about.html" class="no-external">
-About this blog
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Eleanor-Dale-and-a-History-Making-Season/about.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="c29jY2VyJTJDbmNhYSUyQ2JpZzEwJTJDbmVicmFza2E=" data-listing-date-sort="1765087200000" data-listing-file-modified-sort="1765271885390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1183">
-<div class="thumbnail"><a href="./posts/Eleanor-Dale-and-a-History-Making-Season/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/Eleanor-Dale-and-a-History-Making-Season/image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Eleanor-Dale-and-a-History-Making-Season/index.html" class="no-external">Eleanor Dale and a History Making Season</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c29jY2Vy'); return false;">soccer</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmNhYQ=='); return false;">ncaa</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YmlnMTA='); return false;">big10</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmVicmFza2E='); return false;">nebraska</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/Eleanor-Dale-and-a-History-Making-Season/index.html" class="no-external">
-A penalty at any point in the match changes the entire momentum of the game. Compared to the rest of the league including their main rivals, Real Madrid and Atletico Madrid…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Eleanor-Dale-and-a-History-Making-Season/index.html" class="no-external">
-<div class="listing-date">
-Dec 7, 2025
-</div>
-<div class="listing-author">
-Kevin Artiles Fernandez
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="c29jY2VyJTJDbGFsaWdhJTJDY29ycnVwdGlvbiUyQ2JhcmNlbG9uYSUyQ3JlZmVyZWVzJTJDc3BhaW4lMkNuZWdyZWlyYQ==" data-listing-date-sort="1763186400000" data-listing-file-modified-sort="1763417542778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2558">
-<div class="thumbnail"><a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index.html" class="no-external">From Camp Nou to the Committee: Did Money Tilt the Calls</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c29jY2Vy'); return false;">soccer</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGFsaWdh'); return false;">laliga</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29ycnVwdGlvbg=='); return false;">corruption</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YmFyY2Vsb25h'); return false;">barcelona</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVmZXJlZXM='); return false;">referees</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3BhaW4='); return false;">spain</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmVncmVpcmE='); return false;">negreira</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index.html" class="no-external">
-On February 15, 2023, Spanish radio station Cadena SER alongside El Pais, broke the news that FC Barcelona were being investigated by Madrid based court and the Spanish Tax…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/index.html" class="no-external">
-<div class="listing-date">
-Nov 15, 2025
-</div>
-<div class="listing-author">
-Kevin Artiles Fernandez
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
