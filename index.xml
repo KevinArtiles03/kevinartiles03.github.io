@@ -722,7 +722,7 @@ font-style: inherit;">"Eleanor Dale was responsible for 42% of the Huskers' goal
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"By: Kevin Artiles Fernandez | Source: Big Ten Record Book"</span></span>
+font-style: inherit;">"By: Kevin Artiles Fernandez | Source: Big Ten"</span></span>
 <span id="cb3-43">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
@@ -1070,23 +1070,23 @@ font-style: inherit;">"left"</span></span>
 <span id="cb4-64">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
-<div id="xsgnxfnbiu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#xsgnxfnbiu table {
+<div id="qdryekxvbj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qdryekxvbj table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#xsgnxfnbiu thead, #xsgnxfnbiu tbody, #xsgnxfnbiu tfoot, #xsgnxfnbiu tr, #xsgnxfnbiu td, #xsgnxfnbiu th {
+#qdryekxvbj thead, #qdryekxvbj tbody, #qdryekxvbj tfoot, #qdryekxvbj tr, #qdryekxvbj td, #qdryekxvbj th {
   border-style: none;
 }
 
-#xsgnxfnbiu p {
+#qdryekxvbj p {
   margin: 0;
   padding: 0;
 }
 
-#xsgnxfnbiu .gt_table {
+#qdryekxvbj .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1112,12 +1112,12 @@ font-style: inherit;">"left"</span></span>
   border-left-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_caption {
+#qdryekxvbj .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#xsgnxfnbiu .gt_title {
+#qdryekxvbj .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1129,7 +1129,7 @@ font-style: inherit;">"left"</span></span>
   border-bottom-width: 0;
 }
 
-#xsgnxfnbiu .gt_subtitle {
+#qdryekxvbj .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1141,7 +1141,7 @@ font-style: inherit;">"left"</span></span>
   border-top-width: 0;
 }
 
-#xsgnxfnbiu .gt_heading {
+#qdryekxvbj .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -1153,13 +1153,13 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_bottom_border {
+#qdryekxvbj .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_col_headings {
+#qdryekxvbj .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1174,7 +1174,7 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_col_heading {
+#qdryekxvbj .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1194,7 +1194,7 @@ font-style: inherit;">"left"</span></span>
   overflow-x: hidden;
 }
 
-#xsgnxfnbiu .gt_column_spanner_outer {
+#qdryekxvbj .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1206,15 +1206,15 @@ font-style: inherit;">"left"</span></span>
   padding-right: 4px;
 }
 
-#xsgnxfnbiu .gt_column_spanner_outer:first-child {
+#qdryekxvbj .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xsgnxfnbiu .gt_column_spanner_outer:last-child {
+#qdryekxvbj .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xsgnxfnbiu .gt_column_spanner {
+#qdryekxvbj .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1226,11 +1226,11 @@ font-style: inherit;">"left"</span></span>
   width: 100%;
 }
 
-#xsgnxfnbiu .gt_spanner_row {
+#qdryekxvbj .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#xsgnxfnbiu .gt_group_heading {
+#qdryekxvbj .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1256,7 +1256,7 @@ font-style: inherit;">"left"</span></span>
   text-align: left;
 }
 
-#xsgnxfnbiu .gt_empty_group_heading {
+#qdryekxvbj .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1271,15 +1271,15 @@ font-style: inherit;">"left"</span></span>
   vertical-align: middle;
 }
 
-#xsgnxfnbiu .gt_from_md > :first-child {
+#qdryekxvbj .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xsgnxfnbiu .gt_from_md > :last-child {
+#qdryekxvbj .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xsgnxfnbiu .gt_row {
+#qdryekxvbj .gt_row {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 5px;
@@ -1298,7 +1298,7 @@ font-style: inherit;">"left"</span></span>
   overflow-x: hidden;
 }
 
-#xsgnxfnbiu .gt_stub {
+#qdryekxvbj .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1311,7 +1311,7 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#xsgnxfnbiu .gt_stub_row_group {
+#qdryekxvbj .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1325,15 +1325,15 @@ font-style: inherit;">"left"</span></span>
   vertical-align: top;
 }
 
-#xsgnxfnbiu .gt_row_group_first td {
+#qdryekxvbj .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#xsgnxfnbiu .gt_row_group_first th {
+#qdryekxvbj .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#xsgnxfnbiu .gt_summary_row {
+#qdryekxvbj .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1343,16 +1343,16 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#xsgnxfnbiu .gt_first_summary_row {
+#qdryekxvbj .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_first_summary_row.thick {
+#qdryekxvbj .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#xsgnxfnbiu .gt_last_summary_row {
+#qdryekxvbj .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1362,7 +1362,7 @@ font-style: inherit;">"left"</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_grand_summary_row {
+#qdryekxvbj .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1372,7 +1372,7 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#xsgnxfnbiu .gt_first_grand_summary_row {
+#qdryekxvbj .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1382,7 +1382,7 @@ font-style: inherit;">"left"</span></span>
   border-top-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_last_grand_summary_row_top {
+#qdryekxvbj .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1392,11 +1392,11 @@ font-style: inherit;">"left"</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_striped {
+#qdryekxvbj .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xsgnxfnbiu .gt_table_body {
+#qdryekxvbj .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1405,7 +1405,7 @@ font-style: inherit;">"left"</span></span>
   border-bottom-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_footnotes {
+#qdryekxvbj .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1419,7 +1419,7 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_footnote {
+#qdryekxvbj .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1428,7 +1428,7 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#xsgnxfnbiu .gt_sourcenotes {
+#qdryekxvbj .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1442,7 +1442,7 @@ font-style: inherit;">"left"</span></span>
   border-right-color: #D3D3D3;
 }
 
-#xsgnxfnbiu .gt_sourcenote {
+#qdryekxvbj .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1450,72 +1450,72 @@ font-style: inherit;">"left"</span></span>
   padding-right: 5px;
 }
 
-#xsgnxfnbiu .gt_left {
+#qdryekxvbj .gt_left {
   text-align: left;
 }
 
-#xsgnxfnbiu .gt_center {
+#qdryekxvbj .gt_center {
   text-align: center;
 }
 
-#xsgnxfnbiu .gt_right {
+#qdryekxvbj .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xsgnxfnbiu .gt_font_normal {
+#qdryekxvbj .gt_font_normal {
   font-weight: normal;
 }
 
-#xsgnxfnbiu .gt_font_bold {
+#qdryekxvbj .gt_font_bold {
   font-weight: bold;
 }
 
-#xsgnxfnbiu .gt_font_italic {
+#qdryekxvbj .gt_font_italic {
   font-style: italic;
 }
 
-#xsgnxfnbiu .gt_super {
+#qdryekxvbj .gt_super {
   font-size: 65%;
 }
 
-#xsgnxfnbiu .gt_footnote_marks {
+#qdryekxvbj .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#xsgnxfnbiu .gt_asterisk {
+#qdryekxvbj .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#xsgnxfnbiu .gt_indent_1 {
+#qdryekxvbj .gt_indent_1 {
   text-indent: 5px;
 }
 
-#xsgnxfnbiu .gt_indent_2 {
+#qdryekxvbj .gt_indent_2 {
   text-indent: 10px;
 }
 
-#xsgnxfnbiu .gt_indent_3 {
+#qdryekxvbj .gt_indent_3 {
   text-indent: 15px;
 }
 
-#xsgnxfnbiu .gt_indent_4 {
+#qdryekxvbj .gt_indent_4 {
   text-indent: 20px;
 }
 
-#xsgnxfnbiu .gt_indent_5 {
+#qdryekxvbj .gt_indent_5 {
   text-indent: 25px;
 }
 
-#xsgnxfnbiu .katex-display {
+#qdryekxvbj .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#xsgnxfnbiu div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#qdryekxvbj div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -3870,7 +3870,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div></div>
 
  ]]></description>
   <guid>https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/about.html</guid>
-  <pubDate>Tue, 09 Dec 2025 23:48:47 GMT</pubDate>
+  <pubDate>Tue, 09 Dec 2025 23:54:56 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/From-Camp-Nou-to-the-Committee-Did-Money-Tilt-the-Calls/profile.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -3882,7 +3882,7 @@ font-style: inherit;">"black"</span>)</span></code></pre></div></div>
 
  ]]></description>
   <guid>https://your-website-url.example.com/posts/Eleanor-Dale-and-a-History-Making-Season/about.html</guid>
-  <pubDate>Tue, 09 Dec 2025 23:48:47 GMT</pubDate>
+  <pubDate>Tue, 09 Dec 2025 23:54:56 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/Eleanor-Dale-and-a-History-Making-Season/profile.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
